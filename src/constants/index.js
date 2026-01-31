@@ -1,76 +1,62 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/admissionform.png";
+import project2 from "../assets/embeddedc.jpeg";
+import project3 from "../assets/project-1.jpg";
+import project4 from "../assets/project-1.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate software developer with a focus on full-stack web development and scalable systems. Currently working as an SDE 1 at Clappia, I specialize in building robust backend services using microservices and serverless architectures. My goal is to leverage my expertise in React, Node.js, and AWS to create innovative solutions that deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile software engineer with a passion for creating efficient and user-friendly applications. With experience ranging from full-stack web development to mobile framework migrations and serverless architectures, I have worked with a variety of technologies including React, Node.js, AWS, and MongoDB. My journey in technology began with a deep curiosity for how things work, leading me to pursue a B.Tech in Information Technology at Manipal Institute of Technology. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "August 2025 - Present",
+    role: "Software Development Engineer 1",
+    company: "Clappia",
+    description: `Architected dynamic variable support in form components using formula parsing. Built intelligent Google Sheets integration with real-time WebSocket sync status. Engineered Microsoft 365 file and print template support with OAuth management. Upgraded mobile framework (Ionic, Angular, Capacitor) while maintaining backward compatibility. Developed hierarchical single-selectors and established CloudWatch alarms for service monitoring.`,
+    technologies: ["TypeScript", "AWS Lambda", "Node.js", "Angular", "Ionic", "WebSockets"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "February 2025 - July 2025",
+    role: "Software Development Intern",
+    company: "Clappia",
+    description: `Worked on microservices and serverless architecture using AWS Lambda and API Gateway. Implemented ICICI EazyPay payment gateway integration. Enhanced multi-select and bulk edit operations with custom validation blocks. Enabled Gantt chart rendering and export functionality in mobile applications.`,
+    technologies: ["AWS Lambda", "API Gateway", "Node.js", "React", "Mobile Development"],
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "June 2023 - July 2023",
+    role: "Summer Intern",
+    company: "Reliance Jio",
+    description: `Developed an image validation and duplicate detection system reducing duplicate submissions by 40%. Designed MongoDB schemas reducing redundancy by 25%. Improved image processing speed by 20% and reduced file sizes by 30% via compression.`,
+    technologies: ["Node.js", "Express", "MongoDB", "Sharp"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: project1,
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-  },
-  {
-    title: "Task Management App",
-    image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
-  },
-  {
-    title: "Portfolio Website",
+    title: "Liken - Social Media App",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "A user-friendly blogging platform prioritizing ease of use and intuitive navigation. Built with Kotlin/Java, Firebase, and XML, Liken ensures a seamless experience across devices with robust authentication and interactive community features.",
+    technologies: ["Android Studio", "Firebase", "XML", "Java"],
   },
   {
-    title: "Blogging Platform",
-    image: project4,
+    title: "Admission Form - MERN",
+    image: project1,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A comprehensive college admission website using Node.js, Express, MongoDB, and Multer. Features intuitive data submission, secure image uploads, and optimized storage using Sharp for image deduplication.",
+    technologies: ["ExpressJs", "MongoDB", "Multer", "NodeJs", "Sharp"],
+  },
+  {
+    title: "Air Quality Monitoring System",
+    image: project2,
+    description:
+      "An advanced air quality monitoring system using LPC1768 microcontroller and MQ-135 sensor. Detects pollutants like CO2 and ammonia, calculating and displaying AQI in real-time on an LCD screen.",
+    technologies: ["Embedded C", "ARM", "LPC 1768", "MQ-135"],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Vashi, Navi Mumbai, Maharashtra, India",
+  phoneNo: "+91-826-8222-674",
+  email: "shobhitsinghid@gmail.com",
 };
